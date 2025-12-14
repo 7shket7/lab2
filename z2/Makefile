@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 TARGET = cipher
-SOURCES = main.cpp RouteCipher.cpp
+SOURCES = main.cpp modTableCipher.cpp
 
 $(TARGET): $(SOURCES)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCES)
